@@ -1,0 +1,41 @@
+:root {
+  --bg: #f4f5f7;
+  --card-bg: #ffffff;
+  --text: #1f2430;
+  --text-muted: #6b7280;
+  --border: #e3e5e9;
+  --accent: #5b6cff;
+  --accent-hover: #4553e0;
+  --danger: #e5484d;
+  --danger-bg: #fdecec;
+  --shadow: 0 4px 16px rgba(20, 20, 43, 0.08);
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14151a;
+    --card-bg: #1e2027;
+    --text: #eceef2;
+    --text-muted: #9aa0ab;
+    --border: #2c2f38;
+    --accent: #8b96ff;
+    --accent-hover: #a1abff;
+    --danger: #ff6b6f;
+    --danger-bg: rgba(229, 72, 77, 0.15);
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
