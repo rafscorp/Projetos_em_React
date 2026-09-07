@@ -1,5 +1,10 @@
 # ⚛️ Projetos em React — Rafael Costa
 
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/status-ativo-35e3a3?style=flat-square)
+![License](https://img.shields.io/badge/licença-MIT-34c3e6?style=flat-square)
+
 Depois de praticar lógica e estrutura de dados em C, decidi migrar pra
 front-end e aprender React construindo interfaces reais, não só seguindo
 tutorial. Cada pasta deste repositório é um projeto completo, criado com
